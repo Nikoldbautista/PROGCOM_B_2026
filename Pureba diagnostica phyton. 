@@ -1,0 +1,518 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMfP81naZbdULFFCD4VlYmS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Nikoldbautista/PROGCOM_B_2026/blob/main/Pureba%20diagnostica%20phyton.%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercicio 1\n"
+      ],
+      "metadata": {
+        "id": "wlXWk7Ar_MTv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "base = float(input(\"Ingresa la base: \"))\n",
+        "altura = float(input(\"Ingresa la altura: \"))\n",
+        "\n",
+        "area = (base * altura) / 2\n",
+        "print(\"El área del triángulo es:\", area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6WS48DU5EFmD",
+        "outputId": "f71d0a82-6cf3-49f7-9765-a2306dace8d9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa la base: 12\n",
+            "Ingresa la altura: 15\n",
+            "El área del triángulo es: 90.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercicio 2\n"
+      ],
+      "metadata": {
+        "id": "dR2fwO0TEjbL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "celsius = float(input(\"Ingresa los grados Celsius: \"))\n",
+        "\n",
+        "fahrenheit = (celsius * 9/5) + 32\n",
+        "print(\"Grados Fahrenheit:\", fahrenheit)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vX9lQ9LNEn9j",
+        "outputId": "8d7bb478-0eee-4b05-e570-a4cc010ad3aa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa los grados Celsius: 30\n",
+            "Grados Fahrenheit: 86.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercicio 3"
+      ],
+      "metadata": {
+        "id": "P6VeqV4OEq-y"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1 = float(input (\"Ingresa el valor del primer numero:\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q2CWn5PGBBsI",
+        "outputId": "796bb10e-e3e5-4302-d63b-d4aebac5152f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa el valor del primer numero:12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n2 = float(input (\"Ingresa el valor del segundo numero:\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HgbYHUF7BTO5",
+        "outputId": "3d05b8c7-b36d-4079-8537-20cc9b3ef66a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa el valor del segundo numero:15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n3 = float(input (\"Ingresa el valor del tercer numero:\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tZHDve5GBdG3",
+        "outputId": "d22f8f26-5218-4641-e5b9-e7a0a5c178d8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ingresa el valor del tercer numero:18\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "suma = (n1 + n2 + n3)"
+      ],
+      "metadata": {
+        "id": "uwtmOnPvBhB3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "promedio = (suma) / 3\n",
+        "promedio"
+      ],
+      "metadata": {
+        "id": "AcX4UKBrDx71",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "192ebcbf-7579-44ad-d97f-74225d358dfc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "15.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(f\"El promedio es: {promedio}\")"
+      ],
+      "metadata": {
+        "id": "mhpWgSAlCYtX",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "cbb780f8-462b-4cad-8a9e-8de37bf500d9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "El promedio es: 15.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercico 4\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "U_oJPLbfFVxk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math"
+      ],
+      "metadata": {
+        "id": "NoZ526j3GbY6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "radio =float(input(\"Escribe el valor de el radio:\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pgcyJtLpFXYT",
+        "outputId": "511e382a-ecd2-4226-f49c-f05899f72d67"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Escribe el valor de el radio:4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "perimetro = (2 * 3.1416 * radio)\n",
+        "perimetro"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pfIGyKhcFkNU",
+        "outputId": "f01d925c-2c8b-4e56-c9cb-c371338eb4e8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "25.1328"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "area = 3.1416 * radio**2\n",
+        "area"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "755700KnGeFV",
+        "outputId": "8d015b81-7526-45bd-9c72-c6870930c553"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "50.2656"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(f\"El perimetreo del circulo es: {perimetro}\")\n",
+        "print(f\"El parea del circulo es: {area}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_WifZryqGx_T",
+        "outputId": "8c5d1ee0-cce8-4213-f3d9-88c78be74e6b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "El perimetreo del circulo es: 25.1328\n",
+            "El parea del circulo es: 50.2656\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercico 5"
+      ],
+      "metadata": {
+        "id": "QuntkA6jHnWB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math"
+      ],
+      "metadata": {
+        "id": "-TAZBrSnHtby"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a =float(input(\"Escribe el valor de a:\"))\n",
+        "b =float(input(\"Escribe el valor de b:\"))\n",
+        "c =float(input(\"Escribe el valor de c:\"))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "260d3NjAHmci",
+        "outputId": "bdb7190b-801a-483d-fb2d-ffdd7082cb07"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Escribe el valor de a:2\n",
+            "Escribe el valor de b:3\n",
+            "Escribe el valor de c:6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "discriminante = b**2 - 4*a*c"
+      ],
+      "metadata": {
+        "id": "gauciNNyH1mR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if discriminante >= 0:\n",
+        "    x1 = (-b + math.sqrt(discriminante)) / (2*a)\n",
+        "    x2 = (-b - math.sqrt(discriminante)) / (2*a)\n",
+        "    print(\"Soluciones:\", x1, \"y\", x2)\n",
+        "else:\n",
+        "    print(\"No tiene soluciones reales\")"
+      ],
+      "metadata": {
+        "id": "IwkyTy8RGhhx"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercico 6"
+      ],
+      "metadata": {
+        "id": "jEP2PcFGI4pg"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = int(input(\"Ingresa un número: \"))\n",
+        "\n",
+        "if numero % 2 == 0:\n",
+        "    print(\"Es par\")\n",
+        "else:\n",
+        "    print(\"Es impar\")"
+      ],
+      "metadata": {
+        "id": "iweDLv_fJtr_",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c7f92b7d-6608-4dde-a5d8-fece4958706d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa un número: 5\n",
+            "Es impar\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercico 7"
+      ],
+      "metadata": {
+        "id": "BpTfHHYSFJ6S"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "año = int(input(\"Ingresa un año: \"))\n",
+        "\n",
+        "if (año % 4 == 0 and anio % 100 != 0) or (año % 400 == 0):\n",
+        "    print(\"Es bisiesto\")\n",
+        "else:\n",
+        "    print(\"No es bisiesto\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_KkAdB9xFLNa",
+        "outputId": "f3f95e11-62b3-4936-a364-9bd32d257135"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa un año: 2025\n",
+            "No es bisiesto\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
