@@ -15,7 +15,7 @@ public class Clase2IF {
         System.out.print("Cual es tu edad? ");
         int age = scanner.nextInt(); // Guardamos el número en 'age'
 
-        // 1. IF SIMPLE (Corregido: ahora usa 'age')
+        // 1. IF SIMPLE 
         System.out.println("\n--- If Simple ---");
         if (age < 10) { System.out.println("Aun eres un niño"); }
         if (age >= 10 && age < 14) { System.out.println("Eres un preadolescente"); }
@@ -43,7 +43,7 @@ public class Clase2IF {
             System.out.println("Eres un adulto");
         }
 
-        // 3. IF TERNARIO (Corregido: sin llaves y con puntos : )
+        // 3. IF TERNARIO 
         System.out.println("\n--- If Ternario ---");
         String categoria = (age < 10) ? "Aun eres un niño" :
                            (age < 14) ? "Eres un preadolescente" :
